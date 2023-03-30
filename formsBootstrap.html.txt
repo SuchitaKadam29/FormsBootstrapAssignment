@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="js/bootstrap.js">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Registration form</title>
+</head>
+
+<body text-align: center>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1 class="text-center"> Personal Details</h1>
+                <label class="label col-md-3 control-label">Name</label>
+                <div class="col-md-9">
+                    <input type="text" class="form-control" name="name" placeholder="Name">
+                </div>
+
+                <label class="label col-md-3 control-label">password</label>
+                <div class="col-md-9">
+                    <input type="password" class="form-control" name="password" placeholder="password">
+                </div>
+
+                <label class="label col-md-3 control-label">E-mail id:</label>
+                <div class="col-md-9">
+                    <input type="E-mail id:" class="form-control" name="E-mail id:" placeholder="E-mail id:">
+                </div>
+                <br>
+                <label class="label col-md-3 control-label">Gender</label>
+                <input type="radio">Male
+                <input type="radio">Female <br>
+
+                <label class="label col-md-3 control-label">Contact#</label>
+                <div class="col-md-9">
+                    <input type="Contact" class="form-control" name="Contact#" placeholder="Contact">
+                </div>
+                <h1 class="text-center"> Educational Qualification</h1>
+
+                <label class="label col-md-3 control-label">Degree</label>
+                <div class="col-md-9">
+                    <select class="form-control">
+                        <option>BTECH</option>
+                        <option>BSC</option>
+                        <option>BA</option>
+                        <option>MBA</option>
+                        <option>MTECH</option>
+                    </select>
+                </div>
+                <br>
+                <label class="label col-md-3 control-label">Engineering</label>
+                <div class="col-md-9">
+                    <select class="form-control">
+                        <option>Instrumentation</option>
+                        <option>Information Technology</option>
+                        <option>Computer</option>
+                        <option>Civil</option>
+                        <option>Mechnical</option>
+                    </select>
+                </div>
+                <br>
+                Hobbies: <input type="checkbox">playling chess
+                <input type="checkbox">Reading Books <br>
+
+                <h1 class="text-center"> Address</h1>
+                <div class="col-md-9">
+                    <textarea name="add" id="add" cols="40" rows="5"></textarea><br>
+                </div>
+
+
+                Attach Resume : <button type="Choose File">choose file</button> No File choosen <br><br>
+                <button style="background-color:orange " style='font-size:24px'>SUBMIT<i
+                        class='fas fa-arrow-circle-right'></i>
+                </button>
+            
+
+
+
+            </div>
+
+            <div class="col-md-9">
+
+            </div>
+
+        </div>
+
+</body>
+
+</html>
